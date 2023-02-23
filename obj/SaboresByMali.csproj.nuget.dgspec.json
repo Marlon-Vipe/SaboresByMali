@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj": {}
+    "C:\\Users\\User\\Desktop\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj": {
+    "C:\\Users\\User\\Desktop\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj",
         "projectName": "SaboresByMali",
-        "projectPath": "C:\\Users\\User\\source\\repos\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\SaboresByMali\\SaboresByMali\\SaboresByMali.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\SaboresByMali\\SaboresByMali\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SaboresByMali\\SaboresByMali\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
               "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
             }

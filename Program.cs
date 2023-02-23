@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using SaboresByMali.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<SaboresByMaliContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("dbSabores")));
 
 var app = builder.Build();
 
